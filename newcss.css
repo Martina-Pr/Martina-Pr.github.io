@@ -414,7 +414,7 @@ footer {
         padding-top: 2.2em;
         float: none;
         line-height: .8em;
-        padding-left: 2em;
+        padding-left: 0em;
     }
     .navigation a {
         float: none;
@@ -437,9 +437,6 @@ footer {
     }
 }
 @media (max-width: 835px){
-    .logo{
-        padding-left: 4em;
-    }
     .foto{
         padding-left: 40%;
     }
@@ -462,11 +459,6 @@ footer {
     }
     div.portfolio1 {
         width: 55%;
-    }
-}
-@media (max-width: 835px){
-    .logo{
-        padding-left: 1em;
     }
 }
 @media (max-width: 805px){
@@ -519,9 +511,6 @@ footer {
     }
 }
 @media (max-width: 732px){
-    .logo {
-        padding-left: 2em;
-    }
     .text2 li{
         padding-left: 0;
         padding-right: 10%;
@@ -636,9 +625,6 @@ footer {
     }
 }
 @media (max-width: 615px){
-    .logo {
-        padding-left: .2em;
-    }
     .navigation li:first-child {
         padding-left: 15%;
     }
@@ -696,9 +682,6 @@ footer {
     .navigation a {
         font-size: .7em;
     }
-    .logo {
-        padding-left: 0;
-    }
     .foto {
         padding-left: 20%;
     }
@@ -725,7 +708,7 @@ footer {
 }
 @media (max-width: 320px){
     .navigation li:first-child{
-        padding-left: 14%;
+        padding-left: 19%;
     }
 }
 

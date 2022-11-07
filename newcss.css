@@ -700,7 +700,7 @@ footer {
         padding-left: 20%;
     }
     .title h1 {
-        padding-left: 18%;
+        padding-left: 22%;
     }
     .container-footer {
         height: 14em;
@@ -719,16 +719,6 @@ footer {
     #button {
         right: 0;
     }
-}
-@media (max-width: 420px){
-    .navigation li:first-child {
-        padding-left: 9%;
-    }
-}
-@media (max-width: 310px){
-.logo {
-        padding-left: 0;
-}
 }
 
 

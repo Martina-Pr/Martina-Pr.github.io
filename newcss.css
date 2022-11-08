@@ -86,8 +86,11 @@ ul.personal {
 }
 .navigation li {
     padding-top: 2.5em;
-    padding-left: 7%;
+    padding-left: 6%;
 }
+.navigation li:first-child {
+        padding-left: 0;
+    }
 .navigation li:first-child {
     padding-left: 20%;
 }
@@ -373,7 +376,6 @@ footer {
 }
 @media (max-width: 1125px){
     .navigation a {
-        font-size: 1em;
         padding-top: 1em;
     }
     .logo {
@@ -404,21 +406,13 @@ footer {
         padding-left: 26%;
     }
 }
-
-
 @media (max-width: 945px) {
     .nav-bar {
         height: 8em;
     }
-    .logo {
-        padding-top: 2.2em;
-        float: none;
-        line-height: .8em;
-        padding-left: 0em;
-    }
     .navigation a {
         float: none;
-        text-align: left;
+        text-align: center;
     }
     .navigation li:first-child {
         padding-left: 18%;
@@ -429,6 +423,12 @@ footer {
     .nav-bar {
         margin-top: -1em;
     }
+    .logo {
+        padding-top: 2.2em;
+        float: none;
+        line-height: .8em;
+        padding-left: 0em;
+    }
     .o-mne {
         margin-bottom: 26em;
     }
@@ -437,6 +437,9 @@ footer {
     }
 }
 @media (max-width: 835px){
+    .navigation a {
+        font-size: 1em;
+    }
     .foto{
         padding-left: 40%;
     }
@@ -556,9 +559,7 @@ footer {
     }
 }
 @media (max-width: 675px){
-    .navigation li:first-child {
-        padding-left: 16%;
-    }
+    
     .gallery img{
         width: 35%;
         padding-left: 1em;
@@ -660,7 +661,7 @@ footer {
 }
 @media (max-width: 610px){
     .navigation li:first-child {
-        padding-left: 11%;
+        padding-left: 12%;
     }
     .foto {
         padding-left: 27%;
@@ -676,11 +677,11 @@ footer {
     .personal li {
         font-size: .7em;
     }
-    .navigation li {
-    padding-left: 4%;
-    }
+    .navigation li:first-child {
+    padding-left: 7%;
+}
     .navigation a {
-        font-size: .7em;
+        font-size: .8em;
     }
     .foto {
         padding-left: 20%;
@@ -706,12 +707,11 @@ footer {
         right: 0;
     }
 }
-@media (max-width: 320px){
-    .navigation li:first-child{
-        padding-left: 19%;
+@media (max-width: 315px){
+    nav{
+        margin-left: 1em;
     }
 }
-
 
 
 

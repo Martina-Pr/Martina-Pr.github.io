@@ -707,7 +707,7 @@ footer {
     }
 }
 @media (max-width: 315px){
-    nav{
+    .menu{
         margin-left: 3em;
     }
 }

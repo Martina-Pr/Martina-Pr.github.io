@@ -706,11 +706,7 @@ footer {
         right: 0;
     }
 }
-@media (max-width: 315px){
-    .menu{
-        margin-left: 3em;
-    }
-}
+
 
 
 

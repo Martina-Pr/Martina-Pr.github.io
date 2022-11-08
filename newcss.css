@@ -89,8 +89,8 @@ ul.personal {
     padding-left: 6%;
 }
 .navigation li:first-child {
-        padding-left: 0;
-    }
+    padding-left: 0;
+}
 .navigation li:first-child {
     padding-left: 20%;
 }
@@ -559,7 +559,6 @@ footer {
     }
 }
 @media (max-width: 675px){
-    
     .gallery img{
         width: 35%;
         padding-left: 1em;
@@ -678,8 +677,8 @@ footer {
         font-size: .7em;
     }
     .navigation li:first-child {
-    padding-left: 7%;
-}
+        padding-left: 7%;
+    }
     .navigation a {
         font-size: .8em;
     }
@@ -709,7 +708,7 @@ footer {
 }
 @media (max-width: 315px){
     nav{
-        margin-left: 1em;
+        margin-left: 3em;
     }
 }
 

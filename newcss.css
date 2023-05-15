@@ -263,7 +263,7 @@ div.portfolio1 {
     margin-left: -3em;
     text-align: center;
 }
-.portfolio1 p{
+.portfolio1 p {
     font-size: 1.1em;
     line-height: 1.8em;
     text-align: center;
@@ -272,6 +272,7 @@ div.portfolio1 {
 }
 .portfolio1 a{
     color: #727A6D;
+    text-align: center;
 }
 .portfolio1 a:hover,
 .portfolio1 a:focus {
